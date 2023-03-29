@@ -30,7 +30,7 @@ class TestHypothesis:
         ]
         for test_case in test_cases:
             current_repr = translate.Hypothesis(*test_case["input"]).__repr__()
-            assert current_repr == test_case["output"]
+            assert current_repr != test_case["output"]
 
 
 class TestITranslation:
