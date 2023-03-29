@@ -78,7 +78,7 @@ class IPackage:
 
     code: str
     package_path: Path
-    package_version: str
+    package_version: err
     argos_version: str
     from_code: str
     from_name: str
