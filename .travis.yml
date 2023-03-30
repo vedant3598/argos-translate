@@ -4,6 +4,7 @@ branches:
     - master
     - v2
 python:
+  - "3.6" # Python 3.6 on Linux
   - "3.7" # Python 3.7 on Linux
   - "3.8" # Python 3.8 on Linux
   - "3.9" # Python 3.9 on Linux
